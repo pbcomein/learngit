@@ -1,5 +1,5 @@
 // 802.16E.cpp : 定义控制台应用程序的入口点。
-//git修改
+//git第二次修改
 // ProtocolEOOA.cpp : implementation file
 #include "stdafx.h"
 #include "ProtocolE.h"
