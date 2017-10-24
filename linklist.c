@@ -8,7 +8,7 @@ typedef struct lnode
 }LNode, *LinkList;
 int Length_LinkList(LinkList L)//单链表表长
 {
-    LinkList L;
+    LinkList p=L;
     int j=0;
     while(p->next)
     {
@@ -54,7 +54,7 @@ Insert_LinkList(LinkList L,int i,datatype x)//单链表插入
         return 1;
     }
 }
-int Del_LinkList(LinkList L,int i)
+int Del_LinkList(LinkList L,int i)//单链表删除
 {
     LinkList p,s;
     p=Get_Linklist(L,i-1);
